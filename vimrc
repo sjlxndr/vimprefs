@@ -22,6 +22,7 @@ set expandtab
 set guioptions-=T
 set guioptions+=a
 set nowrap
+set formatoptions-=t
 
 set linespace=0
 
