@@ -87,12 +87,29 @@ nnoremap <silent> <C-l> :nohl<CR>:set nospell<CR><C-l>
 
 nnoremap <C-[>OA <C-Up>
 inoremap <C-[>OA <C-Up>
+noremap <C-[>OA <C-Up>
 nnoremap <C-[>OB <C-Down>
 inoremap <C-[>OB <C-Down>
+noremap <C-[>OB <C-Down>
 inoremap <C-[>OC <C-Right>
 nnoremap <C-[>OC <C-Right>
+noremap <C-[>OC <C-Right>
 inoremap <C-[>OD <C-Left>
 nnoremap <C-[>OD <C-Left>
+noremap <C-[>OD <C-Left>
+
+nnoremap <C-[>[A <Up>
+inoremap <C-[>[A <Up>
+noremap <C-[>[A <Up>
+nnoremap <C-[>[B <Down>
+inoremap <C-[>[B <Down>
+noremap <C-[>[B <Down>
+inoremap <C-[>[C <Right>
+nnoremap <C-[>[C <Right>
+noremap <C-[>[C <Right>
+inoremap <C-[>[D <Left>
+nnoremap <C-[>[D <Left>
+noremap <C-[>[D <Left>
 
 if has("win32")
     set directory=C:\temp\\\\
