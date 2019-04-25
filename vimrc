@@ -98,15 +98,19 @@ inoremap <C-[>OD <C-Left>
 nnoremap <C-[>OD <C-Left>
 noremap <C-[>OD <C-Left>
 
+cnoremap <C-[>[A <Up>
 nnoremap <C-[>[A <Up>
 inoremap <C-[>[A <Up>
 noremap <C-[>[A <Up>
+cnoremap <C-[>[B <Down>
 nnoremap <C-[>[B <Down>
 inoremap <C-[>[B <Down>
 noremap <C-[>[B <Down>
+cnoremap <C-[>[C <Right>
 inoremap <C-[>[C <Right>
 nnoremap <C-[>[C <Right>
 noremap <C-[>[C <Right>
+cnoremap <C-[>[D <Left>
 inoremap <C-[>[D <Left>
 nnoremap <C-[>[D <Left>
 noremap <C-[>[D <Left>
