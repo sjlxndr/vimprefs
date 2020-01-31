@@ -124,6 +124,7 @@ else
     set backupdir=/tmp//
     set undodir=/tmp//
 endif
+set undofile
 
 execute pathogen#infect()
 
