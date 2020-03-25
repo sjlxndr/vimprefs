@@ -85,18 +85,18 @@ hi SpellBad term=reverse ctermbg=12 gui=undercurl guifg=lightblue guisp=orange
 nnoremap <silent> <F7> :set spell!<CR>
 nnoremap <silent> <C-l> :nohl<CR>:set nospell<CR><C-l>
 
-nnoremap <C-[>OA <C-Up>
-inoremap <C-[>OA <C-Up>
-noremap <C-[>OA <C-Up>
-nnoremap <C-[>OB <C-Down>
-inoremap <C-[>OB <C-Down>
-noremap <C-[>OB <C-Down>
-inoremap <C-[>OC <C-Right>
-nnoremap <C-[>OC <C-Right>
-noremap <C-[>OC <C-Right>
-inoremap <C-[>OD <C-Left>
-nnoremap <C-[>OD <C-Left>
-noremap <C-[>OD <C-Left>
+nnoremap <C-[>OA <Up>
+inoremap <C-[>OA <Up>
+noremap <C-[>OA <Up>
+nnoremap <C-[>OB <Down>
+inoremap <C-[>OB <Down>
+noremap <C-[>OB <Down>
+inoremap <C-[>OC <Right>
+nnoremap <C-[>OC <Right>
+noremap <C-[>OC <Right>
+inoremap <C-[>OD <Left>
+nnoremap <C-[>OD <Left>
+noremap <C-[>OD <Left>
 
 cnoremap <C-[>[A <Up>
 nnoremap <C-[>[A <Up>
@@ -127,7 +127,3 @@ endif
 set undofile
 
 execute pathogen#infect()
-
-if has("win32")
-    let g:Perl_Perl='C:\Strawberry\perl\bin\perl.exe'
-endif
