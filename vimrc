@@ -125,5 +125,3 @@ else
     set undodir=/tmp//
 endif
 set undofile
-
-execute pathogen#infect()
