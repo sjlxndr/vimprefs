@@ -125,3 +125,5 @@ else
     set undodir=/tmp//
 endif
 set undofile
+
+set mouse=
